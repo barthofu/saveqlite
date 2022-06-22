@@ -1,0 +1,49 @@
+{
+  "name": "rxeta",
+  "version": "1.1.2",
+  "description": "Reactive state management written in TypeScript with a minimal API and full power of RxJS",
+  "main": "./build/Store.js",
+  "types": "./build/Store.d.ts",
+  "files": [
+    "build"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --require ts-node/register src/**/*.test.ts"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "state management",
+    "store",
+    "reactive",
+    "rxjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barthofu/rxeta.git"
+  },
+  "author": "Bartholomé Gili",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barthofu/rxeta/issues"
+  },
+  "homepage": "https://github.com/barthofu/rxeta#readme",
+  "dependencies": {
+    "rxjs": "^7.5.5"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.0.0",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.16",
+    "np": "^7.6.1",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}
