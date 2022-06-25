@@ -11,7 +11,8 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "echo \"No test specified\" && exit 0"
   },
   "keywords": [
     "javascript",
