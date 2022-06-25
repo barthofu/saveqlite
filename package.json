@@ -33,7 +33,6 @@
   },
   "homepage": "https://github.com/barthofu/saveqlite#readme",
   "dependencies": {
-    "crypto": "^1.0.1",
     "fs": "^0.0.1-security"
   },
   "devDependencies": {
