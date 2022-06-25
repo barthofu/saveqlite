@@ -58,7 +58,7 @@ export async function backup(
                 console.log('--->', sourceDb, 'Backed up successfully to ---> ', snapshotName)
 
                 // write the `fileNames` into a snapshot file that contains the locations of the obj files which contain the current State of specified page of the sqlite database
-                writeFileSync(snapshotName, fileNames.join('\n'));
+                writeFileSync(`${objDir}../${snapshotName}`, fileNames.join('\n'));
             }
         )
     })
