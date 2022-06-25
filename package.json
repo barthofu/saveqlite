@@ -11,8 +11,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc",
-    "test": "node --loader ts-node/esm/transpile-only tests/index.ts"
+    "build": "tsc"
   },
   "keywords": [
     "javascript",
@@ -38,9 +37,6 @@
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
-    "nodemon": "^2.0.16",
-    "np": "^7.6.1",
-    "ts-node": "^10.8.1",
     "typescript": "^4.7.4"
   }
 }
