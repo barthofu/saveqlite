@@ -1,6 +1,6 @@
 {
   "name": "saveqlite",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Incremental backup system for SQLite databases",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
