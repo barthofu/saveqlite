@@ -41,7 +41,7 @@ export async function backup(
             // use the hash as the obj file name
             const fileDir = objDir + hash[0]
             const fileName = hash.substring(1)
-            const fileDest = `${fileDir}${fileName}`
+            const fileDest = `${fileDir}/${fileName}`
 
             // create the obj directory if it doesn't exist
             if (!existsSync(fileDir)) mkdirSync(fileDir, { recursive: true })
