@@ -1,1 +1,2 @@
-export { Store } from './src/Store'
+export * from './src/backup'
+export * from './src/restore'
