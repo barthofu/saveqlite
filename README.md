@@ -49,7 +49,7 @@ backup(
 ```ts
 import { restore } from 'saveqlite'
 
-backup(
+restore(
     './backup.sqlite',
     'snapshot1.txt'
 )
